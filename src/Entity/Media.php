@@ -16,7 +16,7 @@ class Media
     #[ORM\Column(length: 50)]
     private ?string $nomMedia = null;
 
-    #[ORM\Column(length: 50)]
+    #[ORM\Column(length: 250)]
     private ?string $urlMedia = null;
 
     #[ORM\ManyToOne(inversedBy: 'media')]
